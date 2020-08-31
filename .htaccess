@@ -1,0 +1,45 @@
+Options -Indexes
+
+RewriteEngine on
+RewriteRule ^js_disabled$  /rumahcreative/js_disabled.php [L]
+
+RewriteRule ^login&error=([^/\.]+)/?$  /rumahcreative/login.php?error=$1 [L]
+RewriteRule ^login&pass=([^/\.]+)/?$  /rumahcreative/login.php?pass=$1 [L]
+RewriteRule ^login&id=([^/\.]+)/?$  /rumahcreative/login.php?ca=$1 [L]
+
+RewriteRule ^login$  /rumahcreative/login.php [L]
+RewriteRule ^logout$  /rumahcreative/login.php [L]
+
+RewriteRule ^index$  /rumahcreative/index.php [L]
+
+RewriteRule ^beranda$  /rumahcreative/index.php?page=beranda [L]
+
+RewriteRule ^reset_password$  /rumahcreative/reset_password.php [L]
+RewriteRule ^reset&id=([^/\.]+)/?$  /rumahcreative/index.php?page=reset&id=$1 [L]
+
+RewriteRule ^profile$  /rumahcreative/index.php?page=profile [L]
+RewriteRule ^setting$  /rumahcreative/index.php?page=setting [L]
+RewriteRule ^setting&id=([^/\.]+)/?$  /rumahcreative/index.php?page=setting&pass=$1 [L]
+
+RewriteRule ^stok_barang$  /rumahcreative/index.php?page=stok_barang [L]
+RewriteRule ^add_stok_barang$  /rumahcreative/index.php?page=add_stok_barang [L]
+RewriteRule ^stok_barang&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=stok_barang&msg=$1 [L]
+RewriteRule ^update_stok_barang&id=([^/\.]+)/?$  /rumahcreative/index.php?page=update_stok_barang&id=$1 [L]
+
+RewriteRule ^pelanggan$  /rumahcreative/index.php?page=pelanggan [L]
+RewriteRule ^add_pelanggan$  /rumahcreative/index.php?page=add_pelanggan [L]
+RewriteRule ^pelanggan&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=pelanggan&msg=$1 [L]
+RewriteRule ^update_pelanggan&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=update_pelanggan&msg=$1 [L]
+
+RewriteRule ^transaksi_pembelian$  /rumahcreative/index.php?page=transaksi_pembelian [L]
+RewriteRule ^add_transaksi_pembelian$  /rumahcreative/index.php?page=add_transaksi_pembelian [L]
+RewriteRule ^transaksi_pembelian&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=transaksi_pembelian&msg=$1 [L]
+RewriteRule ^update_transaksi_pembelian&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=update_transaksi_pembelian&msg=$1 [L]
+RewriteRule ^update_transaksi_pembelian&id=([^/\.]+)/?$  /rumahcreative/index.php?page=update_transaksi_pembelian&id=$1 [L]
+
+RewriteRule ^transaksi_penjualan$  /rumahcreative/index.php?page=transaksi_penjualan [L]
+RewriteRule ^add_transaksi_penjualan$  /rumahcreative/index.php?page=add_transaksi_penjualan [L]
+RewriteRule ^transaksi_penjualan&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=transaksi_penjualan&msg=$1 [L]
+RewriteRule ^update_transaksi_penjualan&msg=([^/\.]+)/?$  /rumahcreative/index.php?page=update_transaksi_penjualan&msg=$1 [L]
+
+RewriteRule ^download&id=([^/\.]+)/?$  /rumahcreative/views/download.php?id=$1 [L]
