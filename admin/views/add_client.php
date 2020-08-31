@@ -2,7 +2,7 @@
         	<div class="container">
             	<div class="page-header">
               		<h1 class="page-title">
-                	Add Client cek commit baru
+                	Add Client cek commit 
               	</h1>
             </div>
             <div class="row row-cards row-deck">
