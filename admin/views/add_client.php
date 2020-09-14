@@ -2,7 +2,7 @@
         	<div class="container">
             	<div class="page-header">
               		<h1 class="page-title">
-                	Add Client cek commit 
+                	Add Client cek commit Senin 14-09-2020
               	</h1>
             </div>
             <div class="row row-cards row-deck">
