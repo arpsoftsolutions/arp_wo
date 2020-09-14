@@ -1,6 +1,6 @@
 <?php 
   $pg_active = isset($_GET['page']) ? $_GET['page'] : '';
-  if ($pg_active == 'dasboard'){
+  if ($pg_active == 'dashboard'){
     $home = 'active';
   }elseif ($pg_active == 'client' || $pg_active == 'add_client' || $pg_active == 'add_stok_barang' || $pg_active == 'update_stok_barang'){
     $client = 'active';
